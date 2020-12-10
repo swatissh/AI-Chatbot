@@ -1,0 +1,39 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "Heyy", "How are you", "Is anyone there?", "Hello", "Good day"],
+        "responses": ["Hello, thanks for visiting", "Hello there, how may I help you?", "Hi there, how can I help?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+      },
+      {
+        "tag": "openinghours",
+        "patterns": ["When is the shop open?", "Is the shop open today?", "What time does your shop close?", "What time is the shope open till?"],
+        "responses": ["The working hours are from 8am to 8pm everyday!"]
+      },
+      {
+        "tag": "menu",
+        "patterns": ["What does your shop sell?", "What do you sell?"],
+        "responses": ["We sell red velvet, chocolate and vanilla cupcakes!"]
+      },
+      {
+        "tag": "cash",
+        "patterns": ["Do you take cash?", "Do you accept cards?"],
+        "responses": ["We accept VISA and Mastercard for cards and cash is acceptable too!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thanx", "Thank you", "That's helpful"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "who",
+        "patterns": ["Who are you", "What is your name"],
+        "responses": ["I am a bot", "I am a chatbot"]
+      }
+    ]
+  }
