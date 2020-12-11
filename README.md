@@ -14,7 +14,7 @@ An AI chatbot for a small fictional Cupcake Shop. The chatbot aims to respond to
   * pip install numpy
   
 # How to run:
-* Open folder directory, exmaple: 
+* Open folder directory in terminal, exmaple: 
  `cd C:\Users\AI Chatbot`
 * And enter 
  `python chatbot.py`
